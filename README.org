@@ -4,6 +4,15 @@
 #+language: en
 #+options: ':t toc:nil author:t email:t num:t
 
+Nota bene: this is a fork from [[https://github.com/namilus/denote-menu][namilus]] 
+package, denote-menu. It's a great package to format your notes in a nice and clean 
+view. With this fork I only intend to make it more signature-focused. Simply put,
+the original denote-menu displays denote files sorting them by date; this fork, on
+the other hand, sorts them by signature. By default, it will sort signatures 
+/in reverse order/, i.e., from the highest to the lowest signature. But it also 
+allows you sort them from the lowest to the highest signature by clicking on the 
+column heading. That's all.
+
 #+html: <a href="http://elpa.gnu.org/packages/denote-menu.html"><img alt="GNU ELPA" src="https://elpa.gnu.org/packages/denote-menu.svg"/></a>
 
 * Overview
