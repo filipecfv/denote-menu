@@ -297,7 +297,7 @@ files."
   :interactive nil
   (if denote-menu-show-file-signature
       (setq tabulated-list-format `[("Date" ,denote-menu-date-column-width t)
-                                    ("Signature" ,denote-menu-signature-column-width nil)
+                                    ("Signature" ,denote-menu-signature-column-width t)
                                     ("Title" ,denote-menu-title-column-width nil)
                                     ("Keywords" ,denote-menu-keywords-column-width nil)])
 
