@@ -87,7 +87,7 @@ denote file corresponding to the button."
   :type 'boolean
   :group 'denote-menu)
 
-(defcustom denote-menu-show-file-signature nil
+(defcustom denote-menu-show-file-signature t
   "Whether to show the denote file signature."
   :type 'boolean
   :group 'denote-menu)
