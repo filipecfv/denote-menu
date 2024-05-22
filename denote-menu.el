@@ -306,7 +306,8 @@ files."
                                   ("Keywords" ,denote-menu-keywords-column-width nil)]))
 
   (denote-menu-update-entries)
-  (setq tabulated-list-sort-key '("Date" . t))
+;;  (setq tabulated-list-sort-key '("Date" . t))
+  (setq tabulated-list-sort-key '("Signature" . t))
   (tabulated-list-init-header)
   (tabulated-list-print))
 
